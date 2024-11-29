@@ -1,10 +1,10 @@
 
 html {font-size: 62,5%;
+min-width: 400px;
+max-width: 1800px;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
+
 
 body { 
     font-family: "Open Sans", sans-serif;
@@ -13,11 +13,17 @@ body {
     text-align: center;
     color: #393d41;
     padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
+    margin: auto;
+   
     
    
 }
+
+body img {
+    max-width: 100%; 
+    height: auto;
+  }
+
 
 header div{
     padding-top: 20px;
@@ -145,6 +151,7 @@ footer{
     color: #c8e7f0;
     margin-top: 70px;
     padding-bottom: 70px;
+    width: auto;
 
 }
 
